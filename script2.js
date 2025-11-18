@@ -1,7 +1,7 @@
 // --- 1. CONFIGURAÇÃO DAS BASES DE DADOS ---
 const BASE_URLS = {
     juridico: './dadosJuridicos.json', // ESTUDO GERAL
-    diario: 'base/dados.json'        // ESTUDO DO DIA
+    diario: './base/dados.json'        // ESTUDO DO DIA
 };
 const DB_STORAGE_KEY = 'current_db_key'; // Chave para salvar a base de dados ativa
 
