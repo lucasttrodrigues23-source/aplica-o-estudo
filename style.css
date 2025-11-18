@@ -1,0 +1,449 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Comic Sans MS', 'Arial Rounded MT Bold', sans-serif; /* Fonte com toque cartoon */
+    background-color: #f7fafd; /* Fundo muito claro, quase branco azulado */
+    color: #444; /* Texto em cinza escuro para contraste suave */
+    margin: 0;
+    line-height: 1.6;
+    overflow-x: hidden; /* Previne scroll horizontal indesejado */
+}
+
+header {
+    background-color: #bdd7f5;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h1, h2, h3, h4 {
+    /* CORRIGIDO: Cor mais escura para melhor contraste e leitura */
+    color: #4169E1; /* Azul principal mais vibrante (Royal Blue) */
+    margin-top: 0;
+}
+
+main {
+    max-width: 1000px; /* Um pouco menor para foco no conteúdo */
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px; /* Cantos mais arredondados */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Sombra mais pronunciada */
+}
+
+/* --- Seção de Input/Formulário --- */
+#input-section {
+    margin-bottom: 30px;
+    padding: 25px;
+    border: 1px solid #B0E0E6; /* Borda suave em azul claro */
+    border-radius: 10px;
+    background-color: #f0f8ff; /* Fundo ligeiramente azulado */
+}
+
+#study-form label {
+    font-weight: bold;
+    color: #5F9EA0; /* Cor para labels */
+    margin-bottom: 8px;
+}
+
+#study-form input[type="text"] {
+    width: calc(100% - 24px);
+    padding: 12px;
+    border: 2px solid #ADD8E6; /* Borda um pouco mais grossa e colorida */
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#study-form input[type="text"]:focus {
+    border-color: #6495ED; /* Borda azul ao focar */
+    outline: none;
+}
+
+/* Botões gerais (Adicionar, Verificar, e AGORA o Comparar/Avaliar) */
+#study-form button, 
+#simulado-form button:not(.control-btn), 
+#vf-simulado-form button:not(.control-btn),
+#flash-write-form button:not(.control-btn) { 
+    background: #7B68EE; /* Azul violeta amigável */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out, transform 0.2s;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+#study-form button:hover, 
+#simulado-form button:hover:not(.control-btn), 
+#vf-simulado-form button:hover:not(.control-btn),
+#flash-write-form button:hover:not(.control-btn) { 
+    background: #6A5ACD; /* Um tom mais escuro no hover */
+    transform: translateY(-2px); /* Pequeno efeito de elevação */
+}
+
+/* --- Seletor de Base de Dados (NOVO) --- */
+.db-switch-btn {
+    background-color: #3251cd; /* Verde Lima amigável */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15px; /* Espaço após as abas */
+    margin-bottom: 10px;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+    display: block; /* Ocupa a largura total para fácil clique */
+    width: 100%;
+    font-size: 1em;
+}
+
+.db-switch-btn:hover {
+    background-color: #2a99aa; /* Verde mais escuro no hover */
+    transform: translateY(-1px);
+}
+
+
+/* --- Abas (Tabs) --- */
+.tab-container { /* Adicionado para envolver os botões e ser o ponto de referência */
+    display: flex;
+    margin-bottom: 0; /* Removido margem de baixo para o botão de DB ficar perto */
+    background-color: #E0FFFF; /* Fundo para a área das abas */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.tab-button {
+    flex-grow: 1; /* Distribui o espaço igualmente */
+    padding: 12px 18px; 
+    border: none; 
+    background: transparent; /* Transparente, a cor de fundo vem do .tab-container */
+    cursor: pointer;
+    border-bottom: 4px solid transparent; /* Borda mais grossa */
+    transition: all 0.3s ease-in-out;
+    font-size: 1.05em;
+    font-weight: 600;
+    color: #6A5ACD; /* Cor do texto do botão */
+}
+.tab-button:hover {
+    background-color: #CCE5FF; /* Leve destaque no hover */
+}
+.tab-button.active { 
+    background: white; 
+    border-bottom: 4px solid #6495ED; /* Azul principal ativo */
+    font-weight: bold; 
+    color: #4169E1; /* Cor mais forte para o texto ativo */
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05); /* Sombra para o botão ativo */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.tab-content { display: none; padding: 20px 0; }
+.tab-content.active { display: block; }
+
+/* --- Flash Cards (Responsivo) --- */
+.card-grid {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 25px; /* Espaçamento maior entre cards */
+    justify-content: center; 
+}
+
+.flashcard-wrapper {
+    width: 100%;
+    max-width: 300px; /* Levemente maior */
+    position: relative;
+    margin-bottom: 25px;
+    border: none; /* Remove a borda padrão do wrapper */
+    border-radius: 12px;
+    background: transparent; /* A cor vem do card interno */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra para destaque */
+    box-sizing: border-box;
+}
+
+/* Estilos de Flip Card */
+.flashcard {
+    perspective: 1200px; /* Aumenta a perspectiva para um efeito 3D mais suave */
+    width: 100%;
+    height: 180px; /* Mais alto */
+    cursor: pointer;
+}
+.card-inner {
+    position: relative; width: 100%; height: 100%; text-align: center;
+    transition: transform 0.7s cubic-bezier(0.4, 0.0, 0.2, 1); /* Transição mais suave e com bounce */
+    transform-style: preserve-3d;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15); /* Sombra no card */
+    border-radius: 12px; /* Cantos arredondados */
+}
+.flashcard.flipped .card-inner { transform: rotateY(180deg); }
+.card-front, .card-back {
+    position: absolute; width: 100%; height: 100%; backface-visibility: hidden;
+    display: flex; align-items: center; justify-content: center;
+    padding: 20px; box-sizing: border-box; border-radius: 12px;
+    font-size: 1.1em;
+    font-weight: 500;
+    line-height: 1.4;
+}
+.card-front { 
+    background-color: #0077ff; /* Azul vibrante */
+    color: #f9f8ff; 
+    border: 2px dashed #DAA520; /* Borda tracejada divertida */
+}
+.card-back { 
+    background-color: #66CCEE; /* Azul céu suave */
+    color: white; 
+    transform: rotateY(180deg); 
+    border: 2px dashed #4682B4;
+}
+
+/* --- Botões de Controle (Editar/Excluir) --- */
+.card-controls {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.control-btn {
+    padding: 8px 15px;
+    font-size: 0.85em;
+    flex-grow: 1;
+    margin: 0 5px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.control-btn.edit { background: #6495ED; } /* Azul mais suave para editar */
+.control-btn.edit:hover { background: #4169E1; }
+.control-btn.delete { background: #FF6347; } /* Laranja avermelhado para excluir */
+.control-btn.delete:hover { background: #CD5C5C; }
+.control-btn.save { background: #32CD32; } /* Verde limão para salvar */
+.control-btn.cancel { background: #909090; } /* Cinza neutro para cancelar */
+
+/* --- Modo Edição --- */
+.edit-form textarea {
+    width: calc(100% - 10px);
+    min-height: 80px; /* Mais altura para edição */
+    margin-bottom: 12px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 2px solid #ADD8E6;
+    border-radius: 8px;
+    font-family: inherit; /* Mantém a fonte do body */
+    font-size: 0.95em;
+}
+
+/* --- Estilos dos Simulados (Múltipla Escolha e V/F) --- */
+#simulado-form > div, #vf-simulado-form > div {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #B0E0E6;
+    border-radius: 10px;
+    background-color: #f0f8ff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+#simulado-form h4, #vf-simulado-form h4 {
+    color: #4682B4;
+    margin-bottom: 12px;
+}
+
+#simulado-form label, #vf-simulado-form label {
+    margin-left: 8px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #555;
+}
+
+#simulado-form input[type="radio"], #vf-simulado-form input[type="radio"] {
+    margin-right: 5px;
+    transform: scale(1.2); /* Rádios um pouco maiores */
+    cursor: pointer;
+}
+
+/* Feedback de cores para simulados */
+/* O seletor abaixo foi simplificado para funcionar melhor, visando a cor de fundo */
+#simulado-form div[style*="background-color"],
+#vf-simulado-form div[style*="background-color"] {
+    transition: background-color 0.3s ease;
+}
+
+/* Verde claro (Acerto) */
+#simulado-form div[style*="background-color: #DFF2BF"],
+#vf-simulado-form div[style*="background-color: #DFF2BF"] { 
+    background-color: #DFF2BF !important;
+    border-color: #A3D900 !important;
+}
+
+/* Vermelho claro (Erro) */
+#simulado-form div[style*="background-color: #FFCCCC"],
+#vf-simulado-form div[style*="background-color: #FFCCCC"] { 
+    background-color: #FFCCCC !important;
+    border-color: #FF6666 !important;
+}
+
+/* Amarelo claro (Não respondido/Incompleto) */
+#simulado-form div[style*="background-color: #FFFACD"],
+#vf-simulado-form div[style*="background-color: #FFFACD"] { 
+    background-color: #FFFACD !important;
+    border-color: #FFD700 !important;
+}
+
+
+#simulado-result, #vf-simulado-result {
+    margin-top: 25px;
+    padding: 15px;
+    border: 2px dashed #ADD8E6;
+    border-radius: 10px;
+    background-color: #E0FFFF;
+    font-weight: bold;
+    color: #4682B4;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+
+/* --- Seção Desafio de Escrita Rápida (Flash Write) --- */
+#flash-write h3 {
+    color: #FF6347; /* Laranja avermelhado para chamar a atenção para o desafio */
+}
+
+#flash-write-form {
+    padding: 20px;
+    border: 2px solid #ADD8E6;
+    border-radius: 10px;
+    background-color: #f0f8ff;
+}
+
+#flash-write-input {
+    width: calc(100% - 20px);
+    min-height: 150px; /* Área grande para escrita */
+    padding: 10px;
+    box-sizing: border-box;
+    border: 3px dashed #6495ED; /* Borda tracejada divertida e marcante */
+    border-radius: 8px;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    font-family: inherit;
+    resize: vertical; /* Permite redimensionar apenas verticalmente */
+    transition: all 0.3s ease-in-out;
+}
+
+#flash-write-input:focus {
+    border-color: #7B68EE; /* Cor mais forte no foco */
+    box-shadow: 0 0 10px rgba(123, 104, 238, 0.3);
+    outline: none;
+}
+
+/* Display do Cronômetro */
+#timer-display {
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ADD8E6;
+    font-size: 1.4em !important;
+    color: #FF6347 !important; /* Vermelho/Laranja para urgência */
+}
+
+/* Container da Resposta Correta (após comparação) */
+#flash-write-answer {
+    border: 2px solid #4682B4 !important;
+    background: #E6F7FF !important; /* Azul claro suave para contraste */
+    border-radius: 8px;
+}
+
+/* Botões de Autoavaliação (Usam classes existentes, mas com estilo específico) */
+#flash-write-result .control-btn.save { 
+    background: #32CD32; /* Verde limão (Fácil) */
+}
+#flash-write-result .control-btn.edit { 
+    background: #FFD700 !important; /* Amarelo dourado (Médio) */
+    color: #555; /* Texto escuro para contraste */
+    font-weight: bold;
+}
+#flash-write-result .control-btn.delete { 
+    background: #FF6347; /* Laranja (Difícil) */
+}
+
+
+/* --- Media Query para Responsividade em Telas Menores --- */
+@media (max-width: 768px) {
+    main {
+        margin: 10px;
+        padding: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    header {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+    h2 {
+        font-size: 1.4em;
+    }
+    
+    .db-switch-btn {
+        font-size: 0.9em;
+        padding: 8px 10px;
+    }
+
+    .tab-container {
+        flex-direction: column; /* Empilha botões de abas */
+        border-radius: 8px; /* Arredonda a caixa das abas empilhadas */
+    }
+    .tab-button {
+        width: 100%;
+        margin-bottom: 3px;
+        border-bottom: none; /* Remove borda inferior ao empilhar */
+        border-radius: 8px; /* Arredonda cada botão */
+    }
+    .tab-button.active {
+        border-bottom: none; /* Remove borda ativa padrão */
+        border: 2px solid #6495ED; /* Borda ativa em volta do botão */
+        background-color: #E0FFFF; /* Fundo mais suave para ativo */
+        color: #4169E1;
+    }
+    .tab-button:first-child.active { border-top-left-radius: 8px; border-top-right-radius: 8px; }
+    .tab-button:last-child.active { border-bottom-left-radius: 8px; border-bottom-right-radius: 8px; }
+
+
+    .flashcard-wrapper {
+        max-width: 95%; /* Quase largura total */
+        margin: 15px auto;
+    }
+    
+    .flashcard {
+        height: 160px; /* Ajusta altura em telas menores */
+    }
+
+    .card-front, .card-back {
+        font-size: 1em;
+        padding: 15px;
+    }
+
+    .control-btn {
+        padding: 7px 10px;
+        font-size: 0.8em;
+        margin: 0 3px;
+    }
+    
+    #study-form input[type="text"], .edit-form textarea {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 { font-size: 1.5em; }
+    h2 { font-size: 1.2em; }
+    .tab-button { font-size: 0.95em; }
+    .flashcard { height: 140px; }
+    .card-front, .card-back { font-size: 0.9em; }
+}

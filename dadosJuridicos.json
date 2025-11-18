@@ -1,0 +1,495 @@
+[
+  {
+  "pergunta": "O que é Direito?",
+  "resposta": "Conjunto de normas e princípios que regulam a vida em sociedade e visam à realização da justiça."
+  },
+  {
+  "pergunta": "O que é a Norma Jurídica?",
+  "resposta": "Regra de conduta social imposta e garantida pelo Estado."
+  },
+  {
+  "pergunta": "O que é o Ordenamento Jurídico?",
+  "resposta": "O conjunto de todas as leis e normas que existem em um país e que organizam a vida em sociedade."
+  },
+  {
+  "pergunta": "Defina Direito Objetivo.",
+  "resposta": "O Direito como norma, regra (ex: A lei proíbe matar)."
+  },
+  {
+  "pergunta": "Defina Direito Subjetivo.",
+  "resposta": "O Direito como faculdade ou poder de exigir algo (ex: o direito de propriedade)."
+  },
+  {
+  "pergunta": "O que é Direito Positivo?",
+  "resposta": "Conjunto de normas jurídicas em vigor em um determinado local e tempo (Ex: o Código Civil brasileiro)."
+  },
+  {
+  "pergunta": "O que é Direito Natural?",
+  "resposta": "Conjunto de princípios universais, imutáveis e inerentes à natureza humana (ex: direito à vida)."
+  },
+  {
+  "pergunta": "O que é Direito Público?",
+  "resposta": "Ramo que rege as relações em que o Estado atua com soberania (ex: Direito Constitucional, Administrativo)."
+  },
+  {
+  "pergunta": "O que é Direito Privado?",
+  "resposta": "Ramo que rege as relações entre particulares em condição de igualdade (ex: Direito Civil, Empresarial)."
+  },
+  {
+  "pergunta": "Moral?",
+  "resposta": "São regras de conduta criadas pela sociedade (não pelo Estado)."
+  },
+  {
+  "pergunta": "O que é Fontes do Direito?",
+  "resposta": "São as origens de onde nascem as regras jurídicas, ou seja, de onde vem o Direito."
+  },
+  {
+  "pergunta": "Quais são as fontes formais primárias do Direito no Brasil?",
+  "resposta": "Lei (principal), costumes, jurisprudência e doutrina."
+  },
+  {
+  "pergunta": "O que é Lei?",
+  "resposta": "Regra escrita criada pelo Estado para organizar a sociedade."
+  },
+  {
+  "pergunta": "Formação da lei?",
+  "resposta": "Proposta → votação → sanção → publicação → vigência."
+  },
+  {
+  "pergunta": "O que significa Vacatio Legis?",
+  "resposta": "Período entre a publicação de uma lei e sua entrada em vigor, para que as pessoas a conheçam."
+  },
+  {
+  "pergunta": "Costumes?",
+  "resposta": "São práticas repetidas pela sociedade, aceitas como obrigatórias."
+  },
+  {
+  "pergunta": "O que é Jurisprudência?",
+  "resposta": "Conjunto de decisões reiteradas e uniformes dos tribunais sobre uma determinada matéria."
+  },
+  {
+  "pergunta": "Doutrina?",
+  "resposta": "Estudo e teorização sobre o Direito, realizado por juristas, professores e estudiosos."
+  },
+  {
+  "pergunta": "Defina o Princípio da Legalidade (em sentido amplo).",
+  "resposta": "Ninguém será obrigado a fazer ou deixar de fazer alguma coisa senão em virtude de lei."
+  },
+  {
+  "pergunta": "O que é o Império da Lei?",
+  "resposta": "Vale o que a lei determina, e todos devem obedecer."
+  },
+  {
+  "pergunta": "O que é o Império Vontade?",
+  "resposta": "Vale a vontade das pessoas, desde que não contrarie a lei."
+  },
+  {
+  "pergunta": "O que é a Hermenêutica Jurídica?",
+  "resposta": "Ramo do Direito que estuda e sistematiza os processos de interpretação das normas jurídicas."
+  },
+  {
+  "pergunta": "O que é Formas de Integração do Direito?",
+  "resposta": "São maneiras de resolver casos quando a lei não tem resposta direta (ou seja, há uma 'lacuna' na lei)."
+  },
+  {
+  "pergunta": "Analogia?",
+  "resposta": "Usa casos parecidos para resolver o caso sem lei específica."
+  },
+  {
+  "pergunta": "Princípios Gerais do Direito?",
+  "resposta": "Usa valores e ideias básicas de justiça. Exemplo: boa-fé, igualdade, honestidade."
+  },
+  {
+  "pergunta": "Quais são os 5 Fundamentos da República Federativa do Brasil (Art. 1º, CF/88)?",
+  "resposta": "Soberania, Cidadania, Dignidade da pessoa humana, Valores sociais do trabalho e da livre iniciativa, Pluralismo político (Mnemônico: SOCIDIVAPLU)."
+  },
+  {
+  "pergunta": "O que é a Dignidade da Pessoa Humana?",
+  "resposta": "É o valor supremo do ordenamento jurídico, conferindo a todo ser humano o direito a ser respeitado e tratado como um fim em si mesmo."
+  },
+  {
+  "pergunta": "O que estabelece o Art. 2º da CF/88?",
+  "resposta": "São Poderes da União, independentes e harmônicos entre si: o Legislativo, o Executivo e o Judiciário."
+  },
+  {
+  "pergunta": "Quais são os principais Objetivos Fundamentais da República (Art. 3º, CF/88)?",
+  "resposta": "Construir sociedade livre, justa e solidária; Garantir o desenvolvimento nacional; Erradicar a pobreza/marginalização; Promover o bem de todos."
+  },
+  {
+  "pergunta": "Defina a Supremacia da Constituição.",
+  "resposta": "A Constituição está no topo da hierarquia das normas jurídicas, sendo o fundamento de validade das demais leis."
+  },
+  {
+  "pergunta": "O que são Direitos de 1ª Geração (ou Dimensão)?",
+  "resposta": "Direitos de Liberdade (civis e políticos), exigindo uma postura negativa (não-intervenção) do Estado."
+  },
+  {
+  "pergunta": "O que são Direitos de 2ª Geração (ou Dimensão)?",
+  "resposta": "Direitos de Igualdade (sociais, culturais e econômicos), exigindo uma postura positiva (intervenção) do Estado."
+  },
+  {
+  "pergunta": "Qual o significado da inviolabilidade do direito à Vida (Art. 5º, CF)?",
+  "resposta": "Engloba o direito de permanecer vivo e de ter uma vida digna."
+  },
+  {
+  "pergunta": "O que é o Princípio da Isonomia?",
+  "resposta": "Todos são iguais perante a lei, garantindo igualdade formal e material (tratar desigualmente os desiguais, na medida de suas desigualdades)."
+  },
+  {
+  "pergunta": "A casa é asilo inviolável do indivíduo. Cite 2 exceções que permitem a entrada sem consentimento do morador.",
+  "resposta": "Flagrante delito; Desastre; Prestar socorro; ou, Durante o dia, por determinação judicial."
+  },
+  {
+  "pergunta": "Em regra, a lei retroagirá ou não retroagirá?",
+  "resposta": "A lei não prejudicará o direito adquirido, o ato jurídico perfeito e a coisa julgada (princípio da irretroatividade da lei)."
+  },
+  {
+  "pergunta": "Defina Coisa Julgada.",
+  "resposta": "Decisão judicial da qual não cabe mais recurso e se torna imutável."
+  },
+  {
+  "pergunta": "O que é o Habeas Corpus?",
+  "resposta": "Remédio constitucional para proteger o direito de locomoção (ir, vir e ficar), quando ameaçado ou violado por ilegalidade ou abuso de poder."
+  },
+  {
+  "pergunta": "O que é o Mandado de Segurança?",
+  "resposta": "Remédio constitucional para proteger direito líquido e certo, não amparado por Habeas Corpus ou Habeas Data."
+  },
+  {
+  "pergunta": "Qual a função do Habeas Data?",
+  "resposta": "Assegurar o conhecimento de informações relativas à pessoa do impetrante em registros ou bancos de dados de entidades governamentais ou de caráter público."
+  },
+  {
+  "pergunta": "Qual o nome do instrumento para anular ato lesivo ao patrimônio público?",
+  "resposta": "Ação Popular."
+  },
+  {
+  "pergunta": "O que é um crime inafiançável?",
+  "resposta": "Crime que não permite a concessão de fiança para a liberdade provisória do acusado."
+  },
+  {
+  "pergunta": "O que é o Princípio da Individualização da Pena?",
+  "resposta": "A pena deve ser adaptada às características e à gravidade da conduta de cada indivíduo."
+  },
+  {
+  "pergunta": "O que é o Princípio da Intranscendência da Pena?",
+  "resposta": "A pena não pode passar da pessoa do condenado (a responsabilidade criminal é pessoal)."
+  },
+  {
+  "pergunta": "O que garante o Devido Processo Legal?",
+  "resposta": "Ninguém será privado da liberdade ou de seus bens sem o devido processo legal (garantia de um processo justo)."
+  },
+  {
+  "pergunta": "O que são Sujeitos do Direito?",
+  "resposta": "São quem tem direitos e deveres perante a lei."
+  },
+  {
+  "pergunta": "O que é Pessoa Natural (ou Física)?",
+  "resposta": "Ser humano, dotado de personalidade jurídica."
+  },
+  {
+  "pergunta": "Quando se inicia a Personalidade Civil da pessoa natural?",
+  "resposta": "Com o nascimento com vida (Art. 2º, CC)."
+  },
+  {
+  "pergunta": "O que é Capacidade de Direito (ou de Gozo)?",
+  "resposta": "Aptidão para ser titular de direitos e deveres (adquirida com o nascimento)."
+  },
+  {
+  "pergunta": "O que é Capacidade de Fato (ou de Exercício)?",
+  "resposta": "Aptidão para exercer pessoalmente os atos da vida civil (adquirida, em regra, aos 18 anos)."
+  },
+  {
+  "pergunta": "Capacidade da Pessoa 0 a 16 anos?",
+  "resposta": "Incapaz, precisa de responsável (absolutamente incapaz)."
+  },
+  {
+  "pergunta": "Capacidade da Pessoa 16 a 18 anos?",
+  "resposta": "Capacidade relativa, precisa de ajuda em alguns atos (relativamente incapaz)."
+  },
+  {
+  "pergunta": "Capacidade da Pessoa +18 anos?",
+  "resposta": "Total capacidade."
+  },
+  {
+  "pergunta": "Capacidade Especiais (alcoólatras, etc)?",
+  "resposta": "Alguns casos especiais podem limitar a capacidade (relativamente incapaz), como uso habitual de drogas, problemas mentais ou gastos irresponsáveis (pródigos)."
+  },
+  {
+  "pergunta": "O que é Emancipação?",
+  "resposta": "Antecipação legal da capacidade de fato (exercício) para o menor entre 16 e 18 anos."
+  },
+  {
+  "pergunta": "O que é Domicílio?",
+  "resposta": "O local onde uma pessoa estabelece a sua residência com ânimo definitivo."
+  },
+  {
+  "pergunta": "Domicílio da Pessoa Natural?",
+  "resposta": "É o lugar onde a pessoa mora com intenção de ficar."
+  },
+  {
+  "pergunta": "Domicílio da Pessoa Jurídica de Direito Privado?",
+  "resposta": "É o lugar onde funciona sua sede, diretoria ou administração, ou o endereço indicado no contrato social."
+  },
+  {
+  "pergunta": "Pessoa Jurídica com sede no Exterior?",
+  "resposta": "O local da filial ou agência que realizou o ato ou contrato no Brasil."
+  },
+  {
+  "pergunta": "O que são Bens Públicos?",
+  "resposta": "São bens que pertencem à União, aos Estados, ao Distrito Federal ou aos Municípios, usados em benefício da coletividade (ou não)."
+  },
+  {
+  "pergunta": "Bens de uso especial?",
+  "resposta": "São os bens usados pelo governo para prestar serviços públicos."
+  },
+  {
+  "pergunta": "Bens dominicais?",
+  "resposta": "São os bens públicos que não estão sendo usados nem pelo povo nem pela administração."
+  },
+  {
+  "pergunta": "Bens Imóveis?",
+  "resposta": "São os bens que não podem ser movidos sem que se altere ou destrua sua estrutura (ex: terrenos, edifícios)."
+  },
+  {
+  "pergunta": "Bens Móveis?",
+  "resposta": "São os bens que podem ser transportados de um lugar para outro sem se danificarem (ex: carro, cadeira)."
+  },
+  {
+  "pergunta": "Bens Fungíveis?",
+  "resposta": "São os bens que podem ser trocados por outros iguais, da mesma espécie, qualidade e quantidade (ex: dinheiro, grãos de café)."
+  },
+  {
+  "pergunta": "Bens Consumíveis?",
+  "resposta": "São os bens que se acabam com o uso — ou seja, só podem ser usados uma vez (ex: alimentos, combustível)."
+  },
+  {
+  "pergunta": "Bens Divisíveis?",
+  "resposta": "São os bens que podem ser divididos em partes sem perder o valor ou a função."
+  },
+  {
+  "pergunta": "Bens Indivisíveis?",
+  "resposta": "São os bens que não podem ser divididos sem perder a utilidade ou o valor."
+  },
+  {
+  "pergunta": "Bens Singulares?",
+  "resposta": "São os bens considerados isoladamente, com existência própria, mesmo que façam parte de um conjunto."
+  },
+  {
+  "pergunta": "Bens Coletivos?",
+  "resposta": "São os bens que pertencem a todos, de uso comum ou interesse geral da sociedade (Atenção: essa definição é mais ampla; em Direito Civil, refere-se a universalidades)."
+  },
+  {
+  "pergunta": "Fato (não jurídico)?",
+  "resposta": "Acontecimento sem relevância jurídica, não produz efeitos legais."
+  },
+  {
+  "pergunta": "Fato jurídico (em sentido amplo)?",
+  "resposta": "Acontecimento que produz efeitos jurídicos, independentemente da vontade. Exemplos: morte, nascimento, desastre natural."
+  },
+  {
+  "pergunta": "Ato jurídico (em sentido estrito)?",
+  "resposta": "Ato praticado com vontade humana, lícito, e que gera efeitos legais. Exemplos: casamento, pagamento de dívida."
+  },
+  {
+  "pergunta": "O que é Negócio Jurídico?",
+  "resposta": "Manifestação de vontade que produz efeitos jurídicos desejados pelas partes."
+  },
+  {
+  "pergunta": "Quais são os 3 requisitos de validade do Negócio Jurídico (Art. 104, CC)?",
+  "resposta": "Agente capaz; Objeto lícito, possível, determinado ou determinável; Forma prescrita ou não defesa em lei."
+  },
+  {
+  "pergunta": "Defeitos do Negócio Jurídico?",
+  "resposta": "São vícios ou irregularidades que afetam a vontade e, consequentemente, a validade do negócio jurídico (ex: erro, dolo, coação)."
+  },
+  {
+  "pergunta": "Invalidação do negócio jurídico?",
+  "resposta": "Ocorre quando o negócio não atende aos requisitos de validade: agente capaz, objeto lícito, forma legal, vontade livre."
+  },
+  {
+  "pergunta": "Nulidade?",
+  "resposta": "Negócio inválido desde o início, ofende a lei gravemente. Efeito: nunca produz efeitos, não pode ser corrigido (art. 166 CC)."
+  },
+  {
+  "pergunta": "Anulabilidade?",
+  "resposta": "Negócio com vício menos grave, geralmente ligado à vontade ou capacidade. Efeito: produz efeitos até ser anulado, pode ser corrigido (art. 171 CC)."
+  },
+  {
+  "pergunta": "Erro/ignorância?",
+  "resposta": "Falsa percepção da realidade que afeta a vontade. Efeito: anulável."
+  },
+  {
+  "pergunta": "Dolo?",
+  "resposta": "Engano intencional para induzir outro a manifestar vontade viciada. Efeito: anulável, pode gerar indenização (art. 145 CC)."
+  },
+  {
+  "pergunta": "Coação?",
+  "resposta": "Vontade dominada por ameaça grave e injusta. Efeito: anulável (art. 151 CC)."
+  },
+  {
+  "pergunta": "Estado de perigo?",
+  "resposta": "Vontade viciada por desespero diante de risco grave, aproveitado por outra parte. Efeito: anulável (art. 156 CC)."
+  },
+  {
+  "pergunta": "Lesão?",
+  "resposta": "Aproveitamento da necessidade urgente ou inexperiência, aceitando obrigação desproporcional. Efeito: anulável ou revisão do contrato (art. 157 CC)."
+  },
+  {
+  "pergunta": "Fraude contra credores?",
+  "resposta": "Devedor pratica ato para prejudicar credores, ocultando ou transferindo bens. Efeito: anulável via ação Pauliana (arts. 158-165 CC)."
+  },
+  {
+  "pergunta": "Ato Comissivo?",
+  "resposta": "Quando alguém faz algo proibido pela lei."
+  },
+  {
+  "pergunta": "Ato Omissivo?",
+  "resposta": "Quando alguém deixa de fazer algo obrigatório pela lei."
+  },
+  {
+  "pergunta": "Qual a diferença entre Dolo e Culpa (em sentido amplo)?",
+  "resposta": "Dolo é a intenção de causar o dano; Culpa é a negligência, imprudência ou imperícia, sem intenção de causar o dano."
+  },
+  {
+  "pergunta": "O que é Prescrição?",
+  "resposta": "Perda do direito de ação (de exigir judicialmente) em razão do decurso do tempo."
+  },
+  {
+  "pergunta": "O que é Decadência?",
+  "resposta": "Perda do próprio direito material (potestativo) em razão do decurso do tempo."
+  },
+  {
+  "pergunta": "O que é Contrato?",
+  "resposta": "Acordo de vontades entre duas ou mais pessoas, que visa criar, modificar ou extinguir direitos e obrigações (Negócio Jurídico bilateral)."
+  },
+  {
+  "pergunta": "Quais são os 3 Princípios Fundamentais da Teoria Contratual?",
+  "resposta": "Autonomia da Vontade (liberdade de contratar), Força Obrigatória (pacta sunt servanda) e Boa-fé Objetiva."
+  },
+  {
+  "pergunta": "Defina o Princípio da Boa-fé Objetiva.",
+  "resposta": "Impõe aos contratantes um dever de agir com honestidade, lealdade e cooperação, antes, durante e após o contrato (Art. 422, CC)."
+  },
+  {
+  "pergunta": "O que significa Pacta Sunt Servanda?",
+  "resposta": "A força obrigatória dos contratos. O acordo faz lei entre as partes e deve ser cumprido."
+  },
+  {
+  "pergunta": "O que é Função Social do Contrato?",
+  "resposta": "O contrato não pode servir apenas aos interesses das partes, mas deve observar o interesse da coletividade, limitando a autonomia da vontade."
+  },
+  {
+  "pergunta": "Defina a Revisão Contratual (Teoria da Imprevisão/Onerosidade Excessiva).",
+  "resposta": "Possibilidade de alterar o contrato se eventos supervenientes, imprevisíveis e extraordinários tornarem a obrigação excessivamente onerosa para uma das partes (Art. 478, CC)."
+  },
+  {
+  "pergunta": "Qual a diferença entre Contrato Unilateral e Bilateral?",
+  "resposta": "Bilateral gera obrigações para ambas as partes (Ex: compra e venda). Unilateral gera obrigação apenas para uma parte (Ex: doação pura)."
+  },
+  {
+  "pergunta": "O que é um Contrato Oneroso?",
+  "resposta": "Aquele em que ambas as partes obtêm vantagens, sofrendo o correspondente sacrifício patrimonial (Ex: locação, ambas dão e recebem)."
+  },
+  {
+  "pergunta": "O que é um Contrato Gratuito (ou Benéfico)?",
+  "resposta": "Aquele em que apenas uma das partes obtém vantagem, e a outra, o sacrifício (Ex: doação pura, comodato)."
+  },
+  {
+  "pergunta": "O que é Vício Redibitório?",
+  "resposta": "Defeto oculto em coisa recebida em contrato comutativo (oneroso), que a torna imprópria ao uso ou lhe diminui o valor."
+  },
+  {
+  "pergunta": "O que é Evicção?",
+  "resposta": "Perda da posse ou propriedade de um bem, em virtude de uma sentença judicial que reconhece direito anterior de um terceiro."
+  },
+  {
+  "pergunta": "O que são Arras ou Sinal?",
+  "resposta": "Valor ou bem entregue por um contratante ao outro no momento da conclusão do contrato, para confirmar o acordo (Arras Confirmatórias) ou servir como cláusula penal (Arras Penitenciais)."
+  },
+  {
+  "pergunta": "O que é Cláusula Penal (Multa Contratual)?",
+  "resposta": "É a penalidade (multa) inserida no contrato, que pode ser exigida em caso de inexecução total ou atraso (mora) no cumprimento da obrigação."
+  },
+  {
+  "pergunta": "O que é Exceção do Contrato Não Cumprido?",
+  "resposta": "Em contratos bilaterais, uma parte pode se recusar a cumprir sua obrigação enquanto a outra não cumprir a dela (Art. 476, CC)."
+  },
+  {
+  "pergunta": "Qual a principal característica de um Contrato de Adesão?",
+  "resposta": "As cláusulas são estabelecidas previamente por uma das partes, não permitindo à outra discutir ou modificar o conteúdo, apenas aceitar ou rejeitar."
+  },
+  {
+  "pergunta": "Como se conceitua um Contrato no âmbito jurídico (incluindo validade e efeitos)?",
+  "resposta": "Acordo bilateral de vontades, isento de mácula, entre capazes, de forma prescrita ou não vedada em lei, criador de direitos e obrigações recíprocos e equivalentes (comutativos)."
+  },
+  {
+  "pergunta": "Quais são os três grandes requisitos de validade do negócio jurídico (e do contrato) previstos no Art. 104 do CC?",
+  "resposta": "1. Agente capaz; 2. Objeto lícito, possível, determinado ou determinável; 3. Forma prescrita ou não defesa em lei."
+  },
+  {
+  "pergunta": "O que é o requisito da Comutatividade e em quais contratos ele se aplica?",
+  "resposta": "É o estabelecimento de direitos e obrigações recíprocas e equivalentes (equilíbrio) e se aplica especificamente aos contratos bilaterais."
+  },
+  {
+  "pergunta": "Quais princípios devem ser guardados na execução do contrato, conforme o Código Civil?",
+  "resposta": "Os princípios da Probidade e da Boa-Fé (Boa-Fé Objetiva)."
+  },
+  {
+  "pergunta": "Qual princípio limita a liberdade de contratar?",
+  "resposta": "A Função Social do Contrato. A liberdade deve ser exercida 'em razão e nos limites da função social do contrato'."
+  },
+  {
+  "pergunta": "Requisito Subjetivo: O que é exigido quanto ao agente (as partes) para a validade do contrato?",
+  "resposta": "Deve ser um Agente Capaz (Capacidade Jurídica) e ter Consentimento/Vontade livre e isento de mácula (sem vícios)."
+  },
+  {
+  "pergunta": "Se for um agente incapaz, como ele participa de um contrato válido?",
+  "resposta": "Deve estar devidamente representado (absolutamente incapaz) ou assistido (relativamente incapaz) por seus responsáveis legais."
+  },
+  {
+  "pergunta": "Quais são as três características exigidas para o Objeto do contrato?",
+  "resposta": "Deve ser Lícito, Possível (física e juridicamente) e Determinado ou Determinável."
+  },
+  {
+  "pergunta": "O que significa dizer que o objeto deve ser juridicamente possível?",
+  "resposta": "Significa que o objeto não pode ser proibido por lei (Ex: Venda de herança de pessoa viva)."
+  },
+  {
+  "pergunta": "Requisito Formal: Qual a regra geral sobre a forma dos contratos no Direito brasileiro?",
+  "resposta": "Liberdade de Forma (Consensualismo). Em regra, pode ser verbal, escrito particular ou tácito."
+  },
+  {
+  "pergunta": "O que é a Formalidade Ad Solemnitatem e qual seu efeito se não for observada?",
+  "resposta": "É a forma especial que a lei exige expressamente para a validade do contrato (forma prescrita). Se não for observada, o contrato será nulo."
+  },
+  {
+  "pergunta": "Segundo o Art. 5º do CC, quais são três formas de se adquirir a Capacidade Jurídica (emancipação) entre 16 e 18 anos?",
+  "resposta": "Casamento; Colação de Grau do Ensino Superior; ou Estabelecimento Civil/Comercial ou Relação de Emprego com economia própria."
+  },
+  {
+  "pergunta": "Qual é a primeira etapa da formação do contrato e qual seu efeito jurídico?",
+  "resposta": "Negociações Preliminares (Pontuação/Tratativas). Em regra, não há vinculação contratual, mas exige-se boa-fé (Responsabilidade Pré-Contratual)."
+  },
+  {
+  "pergunta": "O que é a Proposta (ou Policitação)?",
+  "resposta": "É a manifestação unilateral de vontade do proponente, clara, completa e dirigida a outro, com o intuito de celebrar o contrato."
+  },
+  {
+  "pergunta": "Qual o efeito jurídico da Proposta?",
+  "resposta": "Em regra, a proposta obriga o proponente (Art. 427 do CC), que não pode se retratar sem justa causa."
+  },
+  {
+  "pergunta": "Qual a última etapa da formação do contrato e o que ela provoca?",
+  "resposta": "Aceitação. Sua manifestação aperfeiçoa/conclui o contrato, fazendo-o nascer para o mundo jurídico."
+  },
+  {
+  "pergunta": "O que ocorre se a Aceitação for dada com alterações ou condições diferentes da Proposta?",
+  "resposta": "Ela perde o caráter de aceitação e se transforma em uma nova Proposta (Contraproposta), invertendo os papéis das partes."
+  },
+  {
+  "pergunta": "O que ocorre se a Aceitação for dada com alterações ou condições diferentes da Proposta?",
+  "resposta": "Ela perde o caráter de aceitação e se transforma em uma nova Proposta (Contraproposta), invertendo os papéis das partes."
+  }
+  ]
+

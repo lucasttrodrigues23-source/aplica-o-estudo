@@ -1,0 +1,66 @@
+[
+    {
+      "pergunta": "O que é um Contrato?",
+      "resposta": "Um acordo bilateral de vontades que cria, modifica ou extingue direitos e obrigações recíprocos e equivalentes entre as partes, exigindo vontade livre, capacidade, objeto lícito e forma prescrita/não proibida em lei."
+    },
+    {
+      "pergunta": "Quais são os 3 Requisitos de Validade de TODO Contrato (Art. 104 do CC)?",
+      "resposta": "1. Agente Capaz (Subjetivo);\n2. Objeto Lícito, Possível, Determinado ou Determinável (Objetivo);\n3. Forma Prescrita ou Não Defesa em Lei (Formal)."
+    },
+    {
+      "pergunta": "O que significa 'Agente Capaz' em um Contrato? (Cite um exemplo de como a capacidade é adquirida antes dos 18 anos.)",
+      "resposta": "Significa que a pessoa tem capacidade jurídica para praticar os atos da vida civil (maior de 18 anos ou emancipado).\nExemplo de aquisição antecipada: Emancipação pelo casamento ou colação de grau no ensino superior."
+    },
+    {
+      "pergunta": "Quais são as 3 exigências para o Objeto do Contrato ser Válido? (Dê um exemplo de objeto impossível.)",
+      "resposta": "O Objeto deve ser: 1. Lícito; 2. Possível; 3. Determinado ou Determinável.\nExemplo de objeto impossível: Vender um terreno na Lua (impossibilidade física)."
+    },
+    {
+      "pergunta": "Qual é a regra geral para a Forma do Contrato? (Qual é a grande exceção que exige 'Forma Prescrita em Lei'?)",
+      "resposta": "Regra Geral: O contrato pode ser de qualquer forma (verbal, escrito, tácito).\nExceção: A lei exige forma solene (Ad Solemnitatem) para certos contratos, como a Escritura Pública para compra e venda de imóveis acima de 30 salários mínimos."
+    },
+    {
+      "pergunta": "Quais são as 3 Fases (etapas) de Formação de um Contrato?",
+      "resposta": "1. Negociações Preliminares (Tratativas) – Exigem boa-fé, mas não obrigam.\n2. Proposta (Oferta) – Manifestação unilateral de vontade que, em regra, OBRIGA o proponente.\n3. Aceitação – Concordância integral que APERFEIÇOA o Contrato."
+    },
+    {
+      "pergunta": "O que significa 'Comutatividade' e 'Função Social do Contrato'?",
+      "resposta": "Comutatividade: É o equilíbrio e equivalência entre as prestações e contraprestações (dar e receber).\nFunção Social: A liberdade de contratar deve ser exercida visando ao bem comum e não apenas ao interesse das partes, respeitando a ordem pública."
+    },
+    {
+      "pergunta": "O que ocorre se a Aceitação for dada com alterações ou condições diferentes da Proposta?",
+      "resposta": "Ela perde o caráter de aceitação e se transforma em uma nova Proposta (Contraproposta), invertendo os papéis das partes (o aceitante original passa a ser o novo proponente)."
+    },
+    {
+      "pergunta": "Qual a diferença entre Contrato Unilateral e Bilateral?",
+      "resposta": "Contrato Unilateral: Cria obrigações para apenas uma das partes (ex: doação pura, mútuo).\nContrato Bilateral (Sinalagmático): Cria obrigações recíprocas para ambas as partes (ex: compra e venda, locação)."
+    },
+    {
+      "pergunta": "Qual a diferença entre Contrato Gratuito e Oneroso?",
+      "resposta": "Contrato Gratuito (Benéfico): Somente uma das partes aufere benefício, e a outra, sacrifício (ex: doação pura, comodato).\nContrato Oneroso: Ambas as partes auferem vantagens e suportam sacrifícios (ex: compra e venda, permuta)."
+    },
+    {
+      "pergunta": "Defina Contrato Comutativo e Contrato Aleatório.",
+      "resposta": "Contrato Comutativo: As prestações de ambas as partes são certas, conhecidas e equivalentes no momento da celebração.\nContrato Aleatório: A prestação de uma ou ambas as partes depende de um risco futuro e incerto (álea) (ex: contrato de seguro, venda de safra futura)."
+    },
+    {
+      "pergunta": "O que é o Princípio da Relatividade dos Contratos?",
+      "resposta": "Significa que o contrato só produz efeitos (cria direitos e obrigações) entre as partes que o celebraram, não podendo prejudicar ou beneficiar terceiros."
+    },
+    {
+      "pergunta": "Existem exceções ao Princípio da Relatividade Contratual? Cite a principal.",
+      "resposta": "Sim, existem. A principal é o Contrato com Estipulação em Favor de Terceiro, onde uma das partes contrata em seu nome uma vantagem patrimonial para alguém que não participa do acordo (ex: seguro de vida)."
+    },
+    {
+      "pergunta": "O que significa dizer que um Contrato é Consensual? (E qual é a exceção: Contrato Real?)",
+      "resposta": "Contrato Consensual se aperfeiçoa e se torna obrigatório pela simples manifestação de vontade das partes, independentemente da entrega da coisa (ex: compra e venda).\nContrato Real exige a tradição (entrega da coisa) para o seu aperfeiçoamento (ex: comodato, mútuo, depósito)."
+    },
+    {
+      "pergunta": "O que é a 'Exceção do Contrato Não Cumprido' (Exceptio Non Adimpleti Contractus)?",
+      "resposta": "É a defesa aplicável apenas aos contratos bilaterais/sinalagmáticos. Permite que uma parte se recuse a cumprir sua obrigação enquanto a outra não cumprir a que lhe cabe (Art. 476 do CC)."
+    },
+    {
+      "pergunta": "O que é um Contrato por Adesão e qual sua principal característica?",
+      "resposta": "É aquele cujas cláusulas foram preestabelecidas por apenas uma das partes (o proponente), restando à outra apenas a opção de aceitar ou rejeitar o bloco integralmente. Sua característica é a ausência de fase de negociação (tratativas)."
+    }
+  ]

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo Integrado: Base de Dados Jurídica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>TSJ</h1>
+    </header>
+
+    <main>
+        <section id="input-section">
+            <h2> Adicionar Novo Item de Estudo</h2>
+            <form id="study-form">
+                <label for="pergunta">Frente (Pergunta/Conceito):</label>
+                <input type="text" id="pergunta" required>
+
+                <label for="resposta">Verso (Resposta Correta):</label>
+                <input type="text" id="resposta" required>
+
+                <button type="submit">Adicionar Flash Card e Questão</button>
+            </form>
+        </section>
+
+        <section id="output-section">
+            <div class="tab-container">
+                <button class="tab-button active" onclick="showTab('flashcards')">Flash Cards</button>
+                <button class="tab-button" onclick="showTab('simulado')">Simulado (Múltipla Escolha)</button>
+                <button class="tab-button" onclick="showTab('verdadeiro-falso')">Simulado (V/F)</button> 
+                <button class="tab-button" onclick="showTab('flash-write')">✍️ Desafio de Escrita Rápida</button> 
+            </div>
+            
+            <div id="flashcards" class="tab-content active">
+                <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                    <h3>Meus Flash Cards</h3>
+                    <p>Cada atualização trás 50 Flash cards aleatoriamente</p>
+                    
+                </div>
+                <div id="flashcard-container" class="card-grid">
+                </div>
+            </div>
+
+            <div id="simulado" class="tab-content">
+                <h3>Simulado de Múltipla Escolha</h3>
+                <form id="simulado-form">
+                    <p id="simulado-result"></p>
+                </form>
+            </div>
+            
+            <div id="verdadeiro-falso" class="tab-content">
+                <h3>Simulado de Verdadeiro ou Falso</h3>
+                <form id="vf-simulado-form">
+                    <p id="vf-simulado-result"></p>
+                </form>
+            </div>
+
+            <div id="flash-write" class="tab-content">
+                <h3>Desafio de Escrita Rápida (60)</h3>
+                <p>Tente escrever o conceito o mais rápido e completo possível. A precisão da digitação é por sua conta. <br> <strong>O foco é na recuperação do conceito!</strong></p>
+                <form id="flash-write-form">
+                    <div id="timer-display" style="font-weight: bold; color: #FF6347; margin-top: 15px; font-size: 1.2em;"></div>
+                    <p id="flash-write-result"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="script2.js"></script>
+</body>
+</html>
